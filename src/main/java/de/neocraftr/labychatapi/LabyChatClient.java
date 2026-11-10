@@ -28,7 +28,7 @@ public class LabyChatClient {
 
     public static final Logger LOGGER = LogManager.getLogger("LabyChat");
 
-    public static final String LABYCHAT_IP = "mod.labymod.net";
+    public static final String LABYCHAT_IP = "chat.labymod.net";
     public static final int LABYCHAT_PORT = 30336;
 
     private NioEventLoopGroup nioEventLoopGroup = new NioEventLoopGroup(0, (new ThreadFactoryBuilder()).setNameFormat("Chat#%d").build());
